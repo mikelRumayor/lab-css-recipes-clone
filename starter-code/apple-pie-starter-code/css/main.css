@@ -1,3 +1,13 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
 header > #header-photo {
   background-image: url("../images/apple-pie.jpg");
   background-size: 100% auto;
