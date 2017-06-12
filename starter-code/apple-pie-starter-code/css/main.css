@@ -1,0 +1,32 @@
+header > #header-photo {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: 100% auto;
+  top:0;
+  left: 0;
+  height: 550px;
+}
+
+header > #header-photo > h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding-top: 200px;
+  /*vertical-align: se que tengo que poner un position al header pero se me desucadra todo y tengo que coger las llaves de casa sino duermo en la calle*/
+}
+
+
+header > #header-content {
+  margin: 0 5%;
+  font-size: 20px;
+}
+
+
+header > #header-footer > img,  section > #ingredients-footer > img{
+  margin: auto;
+  display: block;
+}
+
+.content-layout {
+  margin: 0 5%;
+}
