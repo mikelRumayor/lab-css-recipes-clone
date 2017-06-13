@@ -9,7 +9,7 @@ html {
 }
 
 header > #header-photo {
-  background-image: url("../images/soup.jpg");
+  background-image: url("../images/apple-pie.jpg");
   background-size: 100% auto;
   top:0;
   left: 0;
@@ -39,4 +39,24 @@ header > #header-footer > img,  section > #ingredients-footer > img{
 
 .content-layout {
   margin: 0 5%;
+}
+
+#ingredients > #ingredients-content > ul {
+  list-style-type: none;
+}
+
+#ingredients > #ingredients-content > ul > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+#directions > #directions-content > ol {
+  counter-reset: list;
+}
+#directions > #directions-content > ol > li {
+  list-style: none;
+}
+#directions > #directions-content > ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
 }
